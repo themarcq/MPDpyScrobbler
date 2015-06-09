@@ -282,7 +282,7 @@ class ScrobblerThread(threading.Thread):
                         if 'error' in response:
                             debug("Something went wrong")
                             debug(response)
-                            self.add_scrobble_to_journal(scrobble)
+                            self._add_scrobble_to_journal(scrobble)
                         else:
                             self._scrobble_from_journal()
                     self.scrobble_queue.task_done()
