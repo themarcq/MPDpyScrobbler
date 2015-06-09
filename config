@@ -1,0 +1,6 @@
+[lastfm]
+host = http://ws.audioscrobbler.com/2.0/
+
+[mpd]
+hostname = localhost
+password = 
